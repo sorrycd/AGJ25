@@ -8,30 +8,40 @@ public class MouseMoveController : MonoBehaviour
 
     [Header("Mouse Look Settings")]
     public float mouseSensitivity = 2f;
-    public Transform playerCamera;
     public float maxLookAngle = 85f;
 
     private CharacterController controller;
+    private Transform playerCamera;
     private float verticalLookRotation = 0f;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
 
-        // Lock and hide the cursor
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Automatically find child camera
+        playerCamera = GetComponentInChildren<Camera>()?.transform;
 
         if (playerCamera == null)
         {
-            Debug.LogError("Assign the camera Transform to the 'Player Camera' field in the inspector.");
+            Debug.LogError("No camera found as child of Player.");
         }
+
+        // Lock and hide cursor
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
     {
         HandleMouseLook();
         HandleMovement();
+
+        // Unlock cursor with Escape
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     void HandleMouseLook()
@@ -39,15 +49,14 @@ public class MouseMoveController : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
-        // Rotate player (yaw)
+        // Horizontal look (player body)
         transform.Rotate(Vector3.up * mouseX);
 
-        // Rotate camera (pitch)
-        verticalLookRotation -= mouseY;
-        verticalLookRotation = Mathf.Clamp(verticalLookRotation, -maxLookAngle, maxLookAngle);
-
+        // Vertical look (camera)
         if (playerCamera != null)
         {
+            verticalLookRotation -= mouseY;
+            verticalLookRotation = Mathf.Clamp(verticalLookRotation, -maxLookAngle, maxLookAngle);
             playerCamera.localRotation = Quaternion.Euler(verticalLookRotation, 0f, 0f);
         }
     }
