@@ -1,8 +1,10 @@
 using UnityEngine;
+using TMPro;
 
 public class GlobalWordInput : MonoBehaviour
 {
     private string currentWord = "";
+    public TextMeshPro Input3DText; 
 
     void Update()
     {
@@ -10,19 +12,19 @@ public class GlobalWordInput : MonoBehaviour
         {
             if (char.IsLetter(c))
             {
-                currentWord += char.ToLower(c);
-                Debug.Log("Typed so far: " + currentWord);
+                currentWord += (c);
             }
             else if (c == '\b' && currentWord.Length > 0)
             {
                 currentWord = currentWord.Substring(0, currentWord.Length - 1);
-                Debug.Log("Backspace → " + currentWord);
             }
-            else if (c == ' ' || c == '\n')
+            else if (c == ' ')
             {
-                Debug.Log("Submitted: " + currentWord);
-                currentWord = "";
+                currentWord = ""; // reset after submit
             }
         }
+
+        // Show typed word above the object
+        Input3DText.text = currentWord;
     }
 }
