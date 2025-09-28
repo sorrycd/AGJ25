@@ -47,6 +47,7 @@ public class GlobalWordInput : MonoBehaviour
             {"slash",()=>playeranimator.SetTrigger("stab_trigger")},
             {"slice",()=>playeranimator.SetTrigger("stab_trigger")},
             {"snip", BoltCutters},
+            {"quit", QuitGame},
             {"POW", ()=>playeranimator.SetTrigger("bash_trigger")},
             {"CLANK", ()=>playeranimator.SetTrigger("bash_trigger")},
             {"THUD", ()=>playeranimator.SetTrigger("bash_trigger")},
@@ -71,7 +72,8 @@ public class GlobalWordInput : MonoBehaviour
             {"SCHWING",()=>playeranimator.SetTrigger("stab_trigger")},
             {"SLASH",()=>playeranimator.SetTrigger("stab_trigger")},
             {"SLICE",()=>playeranimator.SetTrigger("stab_trigger")},
-            {"SNIP", BoltCutters}
+            {"SNIP", BoltCutters},
+            {"QUIT", QuitGame}
         };
     }
     void Update()
@@ -111,6 +113,11 @@ public class GlobalWordInput : MonoBehaviour
             Debug.Log("No Action for: "+currentWord);
         }
         currentWord = "";
+
+    }
+    void QuitGame() 
+    {
+        Application.Quit();
     }
     void Punch() { Debug.Log("Player Punches!"); }
     void Shoot() { Debug.Log("Player Shoots!"); }
