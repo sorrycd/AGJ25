@@ -17097,7 +17097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e9e6fa09aa7204eb4f89fc15cb86ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AIChase
-  player: {fileID: 0}
+  player: {fileID: 1080910965}
   speed: 5
 --- !u!95 &1653572329
 Animator:
@@ -19290,6 +19290,9 @@ GameObject:
   - component: {fileID: 1890263569}
   - component: {fileID: 1890263568}
   - component: {fileID: 1890263567}
+  - component: {fileID: 1890263573}
+  - component: {fileID: 1890263572}
+  - component: {fileID: 1890263571}
   m_Layer: 0
   m_Name: player animations
   m_TagString: Untagged
@@ -19505,6 +19508,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1890263571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890263565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f78820296f7a3749af4e65072df7b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttackStab
+  damageAmount: 2
+  attackRange: 10
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &1890263572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890263565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab179e668959854e97e5f85c465a8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttackBash
+  damageAmount: 1
+  attackRange: 10
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &1890263573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890263565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e726ac7e6c9cf4fb32bdef249a4e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  damageAmount: 3
+  attackRange: 500
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1905419148
 GameObject:
   m_ObjectHideFlags: 0
