@@ -343,6 +343,7 @@ MonoBehaviour:
   maxHealth: 3
   invulnerabilityDuration: 2
   healthBarFill: {fileID: 563675672}
+  deathCutsceneSceneName: DeathCutscene
 --- !u!114 &12084234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16647,7 +16648,8 @@ GameObject:
   - component: {fileID: 1653572327}
   - component: {fileID: 1653572326}
   - component: {fileID: 1653572325}
-  m_Layer: 5
+  - component: {fileID: 1653572332}
+  m_Layer: 7
   m_Name: ankles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16807,6 +16809,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653572323}
   m_CullTransparentMesh: 0
+--- !u!114 &1653572332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653572323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174202100cd27454f9516aed261150c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 3
 --- !u!1 &1657174192
 GameObject:
   m_ObjectHideFlags: 0
@@ -18923,6 +18938,7 @@ GameObject:
   - component: {fileID: 1878377977}
   - component: {fileID: 1878377979}
   - component: {fileID: 1878377978}
+  - component: {fileID: 1878377980}
   m_Layer: 0
   m_Name: player animations
   m_TagString: Untagged
@@ -19025,6 +19041,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1878377980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878377976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e726ac7e6c9cf4fb32bdef249a4e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  damageAmount: 3
+  attackRange: 500
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &1905419148
 GameObject:
   m_ObjectHideFlags: 0
