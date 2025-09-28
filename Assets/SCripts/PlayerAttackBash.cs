@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class PlayerAttack : MonoBehaviour
+public class PlayerAttackBash : MonoBehaviour
 {
     public int damageAmount = 25;
     public float attackRange = 2f;
     public LayerMask enemyLayer; // assign "Enemy" layer in Inspector
 
     // Called from the animation event
-    public void DealDamage()
+    public void DealDamageBash()
     {
         Debug.Log("DealDamage called!");
 
