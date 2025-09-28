@@ -11794,6 +11794,7 @@ GameObject:
   - component: {fileID: 1080910973}
   - component: {fileID: 1080910972}
   - component: {fileID: 1080910971}
+  - component: {fileID: 1080910974}
   - component: {fileID: 1080910970}
   - component: {fileID: 1080910969}
   - component: {fileID: 1080910968}
@@ -11984,6 +11985,18 @@ Transform:
   - {fileID: 46302164}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1080910974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080910965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b6519f73b19d24fb3fc72e4140087a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitOnEscape
 --- !u!4 &1087353733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36fc367947143fa4a8495aabee0cafca, type: 3}
