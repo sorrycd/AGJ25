@@ -1,0 +1,1499 @@
+fileFormatVersion: 2
+guid: ac3fba7321d707248a40f02e5f906cda
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dearGodPlease_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1167
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03d7e3e198accb43ab943e09469d5a5
+      internalID: -1439439960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1167
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bbd29681c72ff4b9c3aff580faaee2
+      internalID: -1742134533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1167
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2b2c65ee8a4b544a30ef96a8071505
+      internalID: -1040154159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1167
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e9ffc73c1abec46b97250156a12d03
+      internalID: 1342228507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1167
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea22c828fcbfbd42ae70180303fb7ab
+      internalID: -1198285667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1061
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e393670b9cbaae74e898240d2527314c
+      internalID: -974577509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1061
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a166bf4029cf901499e37ab59c02f56f
+      internalID: -281781300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1061
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be5152de2b972d4c8881135fa4786be
+      internalID: -118007876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_8
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1061
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bc0b403088fe7448bca4c277adba7a
+      internalID: -1542583210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_9
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1061
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee72e73f41f8946409b9748f15dc043a
+      internalID: 594017875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 955
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fdc8fcdbec908458f1f9d9c8078d3f
+      internalID: 1114604024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 955
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4d2541792a20d45b387c6f7ae24ef7
+      internalID: 349478974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 955
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43a538b012fbc649af3ec683a873df5
+      internalID: -1571443592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_13
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 955
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550cbdcea6865264f811ea0f155cf81e
+      internalID: -813219871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_14
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 955
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5049fd811655d1418ef1808a2d6b84d
+      internalID: -1235870140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501844ef983a84c48bfd0b9e63f31e8f
+      internalID: -1028520218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 849
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025f3295a33fae64891c693f4b27d0b7
+      internalID: -15153546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_17
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 849
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b88841a992c684fb02d624738fc768
+      internalID: -1337755537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_18
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 849
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fa02b071661c14186e7af9bb2152a8
+      internalID: 470997489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_19
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 849
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734f416ad8d22684686f3997f540cb92
+      internalID: 990813111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 743
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810ef53efa56e694dbc2ce0af20fce43
+      internalID: -786176335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 743
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d582a24cf276fe1479866a8c6a24dcba
+      internalID: -744722477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_22
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 743
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e628e70431305478386d525d468e70
+      internalID: -1101920846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 743
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f04c5ecb5a3a740a016d2b8fcbcb44
+      internalID: -80177877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_24
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 743
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc27deaf27bc27439ed54adee83e00d
+      internalID: 268404979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 637
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853616a68b2c90645a582efde730aaa0
+      internalID: -935344929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 637
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2138e6de28275db4f82b041e321e8690
+      internalID: -1316480328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 637
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aa2c9ecb88d97418842d6a3ce1afde
+      internalID: 1328282906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_28
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 637
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf78049d22c008645a93e80b24b4bf1e
+      internalID: -494690066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_29
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 637
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fba0a29b58283d4d8b6a8efe6bcc2d5
+      internalID: 801958472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 531
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936fd61661adf64f885436eff77a54e
+      internalID: -1555237290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 531
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67bdaeb9ee81924ebf794e09b037252
+      internalID: -382893195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 531
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40da5873a23ea7c4baee88250e17bfc2
+      internalID: 675547177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_33
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 531
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d895b574465845bde730dd0085850
+      internalID: 1494228751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_34
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 531
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6337fa94ff9b51f40b91e743d34e26cb
+      internalID: 1691779044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f46d211c5e77bd4f8c9e0bb29846a46
+      internalID: -1748545134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_36
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 425
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60533c5979529d5439ba1ecd6a0bb92c
+      internalID: -1761740104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_37
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 425
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfc36ec4e8381f4ca116fcaf84d65d5
+      internalID: -1237764194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_38
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 425
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee216cf56b4aa9448dc197049d3fe4a
+      internalID: -496995691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_39
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 425
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5057f421c2e4f4c8bbb7142977aad2
+      internalID: -1226017119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d68879fee87c6d448a2bed6320e4721
+      internalID: 239256738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_41
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 319
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78615ee973876ff43b5c4f950352e747
+      internalID: 104450355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_42
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 319
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7656c32a4f654f14bb561e2c15254c74
+      internalID: -1707147895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_43
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 319
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f8d84104dfc5f4f87cef5fd0bddc36
+      internalID: 952258891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_44
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 319
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6b02542885c5f4b8b9fccdf41e87e2
+      internalID: 162202866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f90cd37ef9453428f4464439801108
+      internalID: 2009555156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_46
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 213
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724ae209049270f46a47ce1c34e87f8d
+      internalID: -72058170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_47
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 213
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed1e46a02c416d4892ae8785c799c5e
+      internalID: -1580800742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_48
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 213
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10098c1de02daa4289c1873e450320a
+      internalID: -618917325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_49
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 213
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7bedca8d0d9b348b0d50ce13e07c03
+      internalID: -346680748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96e2638d8e71c54a959c52357b9c77d
+      internalID: 367557348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_51
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 107
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe68428adb4eb8458949b012b739f69
+      internalID: 676271661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_52
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 107
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0e0ee58adb1b45a2d2ab0a9b263e5
+      internalID: 138728198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_53
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 107
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f5d9b64a012541a3f19cb60894acf
+      internalID: 496177580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_54
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 107
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73761b8ae06dcb64f9ac648ca9a0779f
+      internalID: 955483804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287ddb209316afb43be3f4d63d4c751e
+      internalID: -640397769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_56
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d333ae513782442b1cc647c78da526
+      internalID: 670837238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_57
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92445d7e61509b04a99b10d03d063aa6
+      internalID: -723880502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_58
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7f9d3354343d44cb08744fe9f20d5f
+      internalID: -473049147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dearGodPlease_59
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fb503226e63304e9738848dfe2e6bb
+      internalID: -1220974717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 106530c9c4afac64591162216fbdc4a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":189.0,"y":106.0},"gridSpriteOffset":{"x":0.0,"y":7.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      dearGodPlease_0: -1439439960
+      dearGodPlease_1: -1742134533
+      dearGodPlease_10: 1114604024
+      dearGodPlease_11: 349478974
+      dearGodPlease_12: -1571443592
+      dearGodPlease_13: -813219871
+      dearGodPlease_14: -1235870140
+      dearGodPlease_15: -1028520218
+      dearGodPlease_16: -15153546
+      dearGodPlease_17: -1337755537
+      dearGodPlease_18: 470997489
+      dearGodPlease_19: 990813111
+      dearGodPlease_2: -1040154159
+      dearGodPlease_20: -786176335
+      dearGodPlease_21: -744722477
+      dearGodPlease_22: -1101920846
+      dearGodPlease_23: -80177877
+      dearGodPlease_24: 268404979
+      dearGodPlease_25: -935344929
+      dearGodPlease_26: -1316480328
+      dearGodPlease_27: 1328282906
+      dearGodPlease_28: -494690066
+      dearGodPlease_29: 801958472
+      dearGodPlease_3: 1342228507
+      dearGodPlease_30: -1555237290
+      dearGodPlease_31: -382893195
+      dearGodPlease_32: 675547177
+      dearGodPlease_33: 1494228751
+      dearGodPlease_34: 1691779044
+      dearGodPlease_35: -1748545134
+      dearGodPlease_36: -1761740104
+      dearGodPlease_37: -1237764194
+      dearGodPlease_38: -496995691
+      dearGodPlease_39: -1226017119
+      dearGodPlease_4: -1198285667
+      dearGodPlease_40: 239256738
+      dearGodPlease_41: 104450355
+      dearGodPlease_42: -1707147895
+      dearGodPlease_43: 952258891
+      dearGodPlease_44: 162202866
+      dearGodPlease_45: 2009555156
+      dearGodPlease_46: -72058170
+      dearGodPlease_47: -1580800742
+      dearGodPlease_48: -618917325
+      dearGodPlease_49: -346680748
+      dearGodPlease_5: -974577509
+      dearGodPlease_50: 367557348
+      dearGodPlease_51: 676271661
+      dearGodPlease_52: 138728198
+      dearGodPlease_53: 496177580
+      dearGodPlease_54: 955483804
+      dearGodPlease_55: -640397769
+      dearGodPlease_56: 670837238
+      dearGodPlease_57: -723880502
+      dearGodPlease_58: -473049147
+      dearGodPlease_59: -1220974717
+      dearGodPlease_6: -281781300
+      dearGodPlease_7: -118007876
+      dearGodPlease_8: -1542583210
+      dearGodPlease_9: 594017875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

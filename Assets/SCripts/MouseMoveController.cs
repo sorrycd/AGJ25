@@ -79,3 +79,4 @@ public class MouseMoveController : MonoBehaviour
         controller.SimpleMove(moveDirection);
     }
 }
+

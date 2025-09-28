@@ -34,7 +34,7 @@ public class GlobalWordInput : MonoBehaviour
             {"swing",()=>playeranimator.SetTrigger("stab_trigger")},
             {"schwing",()=>playeranimator.SetTrigger("stab_trigger")},
             {"slash",()=>playeranimator.SetTrigger("stab_trigger")},
-            {"snip", BoltCutters}   
+            {"snip", BoltCutters}
         };
     }
     void Update()
@@ -62,12 +62,12 @@ public class GlobalWordInput : MonoBehaviour
     void SubmitWord()
     {
         if(wordActions.ContainsKey(currentWord))
-        {  
+        {
             Debug.Log("Matched Word: "+currentWord);
             wordActions[currentWord].Invoke();
         }
         else
-        {  
+        {
             Debug.Log("No Action for: "+currentWord);
         }
         currentWord = "";
