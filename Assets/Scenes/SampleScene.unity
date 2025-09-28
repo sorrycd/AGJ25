@@ -4299,8 +4299,6 @@ GameObject:
   - component: {fileID: 534945894}
   - component: {fileID: 534945893}
   - component: {fileID: 534945897}
-  - component: {fileID: 534945896}
-  - component: {fileID: 534945895}
   m_Layer: 0
   m_Name: Input3DText
   m_TagString: Untagged
@@ -4469,32 +4467,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &534945895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534945891}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93310c63d9118b1478c6e9703ab8c51b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GlobalWordInput
-  Input3DText: {fileID: 0}
---- !u!114 &534945896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534945891}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93310c63d9118b1478c6e9703ab8c51b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GlobalWordInput
-  Input3DText: {fileID: 0}
 --- !u!114 &534945897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4508,6 +4480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GlobalWordInput
   Input3DText: {fileID: 534945893}
+  playeranimator: {fileID: 1447983787}
 --- !u!4 &539256961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36fc367947143fa4a8495aabee0cafca, type: 3}

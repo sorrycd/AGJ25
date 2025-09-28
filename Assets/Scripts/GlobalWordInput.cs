@@ -7,31 +7,33 @@ public class GlobalWordInput : MonoBehaviour
     private string currentWord = "";
     private Dictionary<string,Action> wordActions;
     public TextMeshPro Input3DText; 
+    public Animator playeranimator;
     void Start()
     {
         wordActions = new Dictionary<string, Action>()
         {
-            {"pow", Punch},
-            {"clank", Punch},
-            {"thud", Punch},
-            {"wack", Punch},
-            {"slam", Punch},
-            {"clang", Punch},
-            {"kapow", Punch},
-            {"wham", Punch},
+            {"pow", ()=>playeranimator.SetTrigger("punch_trigger")},
+            {"clank", ()=>playeranimator.SetTrigger("punch_trigger")},
+            {"thud", ()=>playeranimator.SetTrigger("bash_trigger")},
+            {"wack", ()=>playeranimator.SetTrigger("punch_trigger")},
+            {"slam", ()=>playeranimator.SetTrigger("punch_trigger")},
+            {"clang", ()=>playeranimator.SetTrigger("bash_trigger")},
+            {"kapow", ()=>playeranimator.SetTrigger("punch_trigger")},
+            {"wham", ()=>playeranimator.SetTrigger("bash_trigger")},
+            {"thwack", ()=>playeranimator.SetTrigger("bash_trigger")},
             {"achoo", Sneeze},
-            {"bang", Shoot},
-            {"boom", Shoot},
-            {"bam", Shoot},
-            {"blam", Shoot},
+            {"bang", ()=>playeranimator.SetTrigger("shoot_trigger")},
+            {"boom", ()=>playeranimator.SetTrigger("shoot_trigger")},
+            {"bam", ()=>playeranimator.SetTrigger("shoot_trigger")},
+            {"blam", ()=>playeranimator.SetTrigger("shoot_trigger")},
             {"ratatat",RapidFire},
             {"woosh", Dash},
             {"swoosh", Dash},
             {"zap", Laser},
-            {"stab", Knife},
-            {"swing",Knife},
-            {"schwing",Knife},
-            {"slash",Knife},
+            {"stab", ()=>playeranimator.SetTrigger("stab_trigger")},
+            {"swing",()=>playeranimator.SetTrigger("stab_trigger")},
+            {"schwing",()=>playeranimator.SetTrigger("stab_trigger")},
+            {"slash",()=>playeranimator.SetTrigger("stab_trigger")},
             {"snip", BoltCutters}   
         };
     }
