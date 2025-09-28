@@ -2975,7 +2975,23 @@ MonoBehaviour:
   interactLayer:
     serializedVersion: 2
     m_Bits: 64
-  inputActions: {fileID: 0}
+  interactAction:
+    m_Name: Interact
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 09f55a54-26d5-45e1-8565-f57f09e29c5e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 82a61582-3542-42b1-afa0-b41869b23dd2
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Interact
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &317563452
 GameObject:
   m_ObjectHideFlags: 0
@@ -4264,7 +4280,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.0025988002, y: 0.021448852, z: 0.02986632}
-  m_Center: {x: 0.007774061, y: 0.0002721696, z: 0.0026288626}
+  m_Center: {x: 0.008, y: 0, z: 0}
 --- !u!1001 &439894365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18895,7 +18911,6 @@ GameObject:
   - component: {fileID: 2048739815}
   - component: {fileID: 2048739818}
   - component: {fileID: 2048739817}
-  - component: {fileID: 2048739816}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -18912,7 +18927,7 @@ RectTransform:
   m_GameObject: {fileID: 2048739814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 263888412}
@@ -18922,20 +18937,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2048739816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048739814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5389bd529b00315459a3b97242efd231, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Inspectable
-  inspectionUI: {fileID: 0}
-  inputActions: {fileID: 0}
 --- !u!114 &2048739817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18949,14 +18950,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 0.43137255}
+  m_Color: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: dfdaee7e8577a4f468ce646f332de9fb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20162,7 +20163,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inspectable
   inspectionUI: {fileID: 2048739814}
-  inputActions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!4 &5680519944591793116
 Transform:
   m_ObjectHideFlags: 0

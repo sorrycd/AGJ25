@@ -5,23 +5,19 @@ public class PlayerInteraction : MonoBehaviour
 {
     public float interactRange = 5f;
     public LayerMask interactLayer;
-    public InputActionAsset inputActions; // assign PlayerControls asset here
+    public InputAction interactAction; // assign Interact action (E) in inspector
 
-    private InputAction interactAction;
+    private Inspectable currentInspectable;
+    private bool isInspecting = false;
 
     private void OnEnable()
     {
-        if (inputActions == null) return;
-
-        var gameplayMap = inputActions.FindActionMap("Player");
-        interactAction = gameplayMap.FindAction("Interact");
         if (interactAction != null)
         {
             interactAction.Enable();
             interactAction.performed += ctx => Interact();
         }
     }
-    
 
     private void OnDisable()
     {
@@ -34,19 +30,35 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Interact()
     {
-        Debug.Log("Interact called.");
+        if (isInspecting && currentInspectable != null)
+        {
+            // Close current note
+            currentInspectable.CloseInspection();
+            isInspecting = false;
+            EnablePlayerMovement(true);
+            currentInspectable = null;
+            return;
+        }
+
+        // Raycast to see if a note is in front
         Ray ray = new Ray(transform.position, transform.forward);
-        RaycastHit hit;
-
-        Debug.DrawRay(transform.position, transform.forward * interactRange, Color.red, 1f);
-
-        if (Physics.Raycast(ray, out hit, interactRange, interactLayer))
+        if (Physics.Raycast(ray, out RaycastHit hit, interactRange, interactLayer))
         {
             Inspectable inspectable = hit.collider.GetComponent<Inspectable>();
             if (inspectable != null)
             {
-                inspectable.Inspect();
+                currentInspectable = inspectable;
+                currentInspectable.Inspect();
+                isInspecting = true;
+                EnablePlayerMovement(false);
             }
         }
+    }
+
+    private void EnablePlayerMovement(bool enable)
+    {
+        var controller = GetComponentInParent<MouseMoveController>();
+        if (controller != null)
+            controller.enabled = enable;
     }
 }
