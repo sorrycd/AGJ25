@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI; // <-- Required for UI
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -10,7 +10,10 @@ public class PlayerHealth : MonoBehaviour
     public float invulnerabilityDuration = 2f;
 
     [Header("UI")]
-    public Image healthBarFill; // Drag in the UI Image (HealthBarFill)
+    public Image healthBarFill;
+
+    [Header("Death")]
+    public string deathCutsceneSceneName = "DeathCutscene";
 
     private void Start()
     {
@@ -30,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             Debug.Log("Game Over!");
-            Time.timeScale = 0f; // Freeze game
+            SceneManager.LoadScene(deathCutsceneSceneName);
         }
         else
         {
