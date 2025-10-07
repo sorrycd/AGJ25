@@ -17010,8 +17010,10 @@ GameObject:
   - component: {fileID: 1653572328}
   - component: {fileID: 1653572327}
   - component: {fileID: 1653572326}
+  - component: {fileID: 1653572333}
   - component: {fileID: 1653572325}
   - component: {fileID: 1653572332}
+  - component: {fileID: 1653572334}
   m_Layer: 7
   m_Name: ankles
   m_TagString: Untagged
@@ -17027,7 +17029,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653572323}
   m_LocalRotation: {x: -0, y: 0.7008982, z: -0, w: 0.7132614}
-  m_LocalPosition: {x: 0, y: 0, z: -67.6}
+  m_LocalPosition: {x: 0, y: 0, z: -67.66}
   m_LocalScale: {x: 0.7197493, y: 0.4262655, z: 0.4262655}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17067,7 +17069,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 5.696681, y: 5.473102, z: 1}
   m_Center: {x: 0.78514224, y: -2.236551, z: 0}
@@ -17185,6 +17187,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 3
+--- !u!136 &1653572333
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653572323}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 7
+  m_Direction: 1
+  m_Center: {x: 0.7851422, y: -1, z: 0}
+--- !u!114 &1653572334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653572323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4e530b4f8f69743afa844a4f4708af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  player: {fileID: 1080910973}
 --- !u!1 &1657174192
 GameObject:
   m_ObjectHideFlags: 0
