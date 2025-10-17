@@ -34,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -69,11 +69,11 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
+    textureCompression: 0
+    compressionQuality: 100
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -113,7 +113,7 @@ TextureImporter:
       name: spr_bash_2
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 5112
         width: 1010
         height: 568
@@ -135,8 +135,8 @@ TextureImporter:
       name: spr_bash_3
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 5112
+        x: 0
+        y: 4544
         width: 1010
         height: 568
       alignment: 0
@@ -157,8 +157,8 @@ TextureImporter:
       name: spr_bash_4
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 5112
+        x: 1010
+        y: 4544
         width: 1010
         height: 568
       alignment: 0
@@ -179,7 +179,7 @@ TextureImporter:
       name: spr_bash_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 4544
         width: 1010
         height: 568
@@ -201,7 +201,7 @@ TextureImporter:
       name: spr_bash_6
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 4544
         width: 1010
         height: 568
@@ -223,7 +223,7 @@ TextureImporter:
       name: spr_bash_7
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 4544
         width: 1010
         height: 568
@@ -245,8 +245,8 @@ TextureImporter:
       name: spr_bash_8
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 4544
+        x: 0
+        y: 3976
         width: 1010
         height: 568
       alignment: 0
@@ -267,8 +267,8 @@ TextureImporter:
       name: spr_bash_9
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 4544
+        x: 1010
+        y: 3976
         width: 1010
         height: 568
       alignment: 0
@@ -289,7 +289,7 @@ TextureImporter:
       name: spr_bash_10
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 3976
         width: 1010
         height: 568
@@ -311,7 +311,7 @@ TextureImporter:
       name: spr_bash_11
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 3976
         width: 1010
         height: 568
@@ -333,7 +333,7 @@ TextureImporter:
       name: spr_bash_12
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 3976
         width: 1010
         height: 568
@@ -355,8 +355,8 @@ TextureImporter:
       name: spr_bash_13
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 3976
+        x: 0
+        y: 3408
         width: 1010
         height: 568
       alignment: 0
@@ -377,8 +377,8 @@ TextureImporter:
       name: spr_bash_14
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 3976
+        x: 1010
+        y: 3408
         width: 1010
         height: 568
       alignment: 0
@@ -399,7 +399,7 @@ TextureImporter:
       name: spr_bash_15
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 3408
         width: 1010
         height: 568
@@ -421,7 +421,7 @@ TextureImporter:
       name: spr_bash_16
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 3408
         width: 1010
         height: 568
@@ -443,7 +443,7 @@ TextureImporter:
       name: spr_bash_17
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 3408
         width: 1010
         height: 568
@@ -465,8 +465,8 @@ TextureImporter:
       name: spr_bash_18
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 3408
+        x: 0
+        y: 2840
         width: 1010
         height: 568
       alignment: 0
@@ -487,8 +487,8 @@ TextureImporter:
       name: spr_bash_19
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 3408
+        x: 1010
+        y: 2840
         width: 1010
         height: 568
       alignment: 0
@@ -509,7 +509,7 @@ TextureImporter:
       name: spr_bash_20
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 2840
         width: 1010
         height: 568
@@ -531,7 +531,7 @@ TextureImporter:
       name: spr_bash_21
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 2840
         width: 1010
         height: 568
@@ -553,7 +553,7 @@ TextureImporter:
       name: spr_bash_22
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 2840
         width: 1010
         height: 568
@@ -575,8 +575,8 @@ TextureImporter:
       name: spr_bash_23
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 2840
+        x: 0
+        y: 2272
         width: 1010
         height: 568
       alignment: 0
@@ -597,8 +597,8 @@ TextureImporter:
       name: spr_bash_24
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 2840
+        x: 1010
+        y: 2272
         width: 1010
         height: 568
       alignment: 0
@@ -619,7 +619,7 @@ TextureImporter:
       name: spr_bash_25
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 2272
         width: 1010
         height: 568
@@ -641,7 +641,7 @@ TextureImporter:
       name: spr_bash_26
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 2272
         width: 1010
         height: 568
@@ -663,7 +663,7 @@ TextureImporter:
       name: spr_bash_27
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 2272
         width: 1010
         height: 568
@@ -685,8 +685,8 @@ TextureImporter:
       name: spr_bash_28
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 2272
+        x: 0
+        y: 1704
         width: 1010
         height: 568
       alignment: 0
@@ -707,8 +707,8 @@ TextureImporter:
       name: spr_bash_29
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 2272
+        x: 1010
+        y: 1704
         width: 1010
         height: 568
       alignment: 0
@@ -729,7 +729,7 @@ TextureImporter:
       name: spr_bash_30
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 1704
         width: 1010
         height: 568
@@ -751,7 +751,7 @@ TextureImporter:
       name: spr_bash_31
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 1704
         width: 1010
         height: 568
@@ -773,7 +773,7 @@ TextureImporter:
       name: spr_bash_32
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 1704
         width: 1010
         height: 568
@@ -795,8 +795,8 @@ TextureImporter:
       name: spr_bash_33
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 1704
+        x: 0
+        y: 1136
         width: 1010
         height: 568
       alignment: 0
@@ -817,8 +817,8 @@ TextureImporter:
       name: spr_bash_34
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 1704
+        x: 1010
+        y: 1136
         width: 1010
         height: 568
       alignment: 0
@@ -839,7 +839,7 @@ TextureImporter:
       name: spr_bash_35
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 1136
         width: 1010
         height: 568
@@ -861,7 +861,7 @@ TextureImporter:
       name: spr_bash_36
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 1136
         width: 1010
         height: 568
@@ -883,7 +883,7 @@ TextureImporter:
       name: spr_bash_37
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 1136
         width: 1010
         height: 568
@@ -905,8 +905,8 @@ TextureImporter:
       name: spr_bash_38
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 1136
+        x: 0
+        y: 568
         width: 1010
         height: 568
       alignment: 0
@@ -927,8 +927,8 @@ TextureImporter:
       name: spr_bash_39
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 1136
+        x: 1010
+        y: 568
         width: 1010
         height: 568
       alignment: 0
@@ -949,7 +949,7 @@ TextureImporter:
       name: spr_bash_40
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 568
         width: 1010
         height: 568
@@ -971,7 +971,7 @@ TextureImporter:
       name: spr_bash_41
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 568
         width: 1010
         height: 568
@@ -993,7 +993,7 @@ TextureImporter:
       name: spr_bash_42
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 568
         width: 1010
         height: 568
@@ -1015,8 +1015,8 @@ TextureImporter:
       name: spr_bash_43
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 568
+        x: 0
+        y: 0
         width: 1010
         height: 568
       alignment: 0
@@ -1037,8 +1037,8 @@ TextureImporter:
       name: spr_bash_44
       rect:
         serializedVersion: 2
-        x: 4040
-        y: 568
+        x: 1010
+        y: 0
         width: 1010
         height: 568
       alignment: 0
@@ -1059,7 +1059,7 @@ TextureImporter:
       name: spr_bash_45
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2020
         y: 0
         width: 1010
         height: 568
@@ -1081,7 +1081,7 @@ TextureImporter:
       name: spr_bash_46
       rect:
         serializedVersion: 2
-        x: 1010
+        x: 3030
         y: 0
         width: 1010
         height: 568
@@ -1103,7 +1103,7 @@ TextureImporter:
       name: spr_bash_47
       rect:
         serializedVersion: 2
-        x: 2020
+        x: 4040
         y: 0
         width: 1010
         height: 568
@@ -1122,11 +1122,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_bash_48
+      name: spr_bash_0
       rect:
         serializedVersion: 2
-        x: 3030
-        y: 0
+        x: 2020
+        y: 5112
         width: 1010
         height: 568
       alignment: 0
@@ -1137,8 +1137,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4466de5c509d3844e83fa17aba3a1a9e
-      internalID: 1548800060
+      spriteID: 52d72034768f6dd42a501a855e534b7d
+      internalID: 1126839724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_bash_1
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 5112
+        width: 1010
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6491a8397fe0ae40b6f94ef1dd4b5ed
+      internalID: 1242434918
       vertices: []
       indices: 
       edges: []
@@ -1202,8 +1224,6 @@ TextureImporter:
       spr_bash_45: 2135381563
       spr_bash_46: -1930007661
       spr_bash_47: 672634030
-      spr_bash_48: 1548800060
-      spr_bash_49: 166301766
       spr_bash_5: -650483765
       spr_bash_6: -1444806478
       spr_bash_7: -1744241393

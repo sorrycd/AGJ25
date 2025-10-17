@@ -187,9 +187,10 @@ GameObject:
   - component: {fileID: 156536338}
   - component: {fileID: 156536337}
   - component: {fileID: 156536336}
-  - component: {fileID: 156536335}
   - component: {fileID: 156536334}
   - component: {fileID: 156536333}
+  - component: {fileID: 156536341}
+  - component: {fileID: 156536342}
   m_Layer: 7
   m_Name: ankles
   m_TagString: Untagged
@@ -241,27 +242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7af75e87cfa2fd438b90748c35b9fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamagePlayer
---- !u!65 &156536335
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156536331}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 5.696681, y: 5.473102, z: 1}
-  m_Center: {x: 0.78514224, y: -2.236551, z: 0}
 --- !u!54 &156536336
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -363,6 +343,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156536331}
   m_CullTransparentMesh: 0
+--- !u!114 &156536341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156536331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4e530b4f8f69743afa844a4f4708af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FacePlayerInstant
+  player: {fileID: 1682250738}
+--- !u!136 &156536342
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156536331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 7
+  m_Direction: 1
+  m_Center: {x: 0.7851422, y: -1, z: 0}
 --- !u!1 &194169115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,6 +3371,8 @@ GameObject:
   - component: {fileID: 1801970778}
   - component: {fileID: 1801970777}
   - component: {fileID: 1801970776}
+  - component: {fileID: 1801970784}
+  - component: {fileID: 1801970785}
   m_Layer: 7
   m_Name: hobbles
   m_TagString: Untagged
@@ -3423,7 +3441,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 5.696681, y: 5.473102, z: 1}
   m_Center: {x: 0.78514224, y: -2.236551, z: 0}
@@ -3528,6 +3546,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801970774}
   m_CullTransparentMesh: 0
+--- !u!114 &1801970784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801970774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4e530b4f8f69743afa844a4f4708af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FacePlayerInstant
+  player: {fileID: 1682250738}
+--- !u!136 &1801970785
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801970774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 7
+  m_Direction: 1
+  m_Center: {x: 0.7851422, y: -1, z: 0}
 --- !u!1 &1814118550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6ef8c6cd90f0e9f4e991ff93ce7b5164, type: 3}
@@ -4279,6 +4333,8 @@ GameObject:
   - component: {fileID: 2101794164}
   - component: {fileID: 2101794163}
   - component: {fileID: 2101794162}
+  - component: {fileID: 2101794170}
+  - component: {fileID: 2101794171}
   m_Layer: 7
   m_Name: ankles (1)
   m_TagString: Untagged
@@ -4347,7 +4403,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 5.696681, y: 5.473102, z: 1}
   m_Center: {x: 0.78514224, y: -2.236551, z: 0}
@@ -4452,6 +4508,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101794160}
   m_CullTransparentMesh: 0
+--- !u!114 &2101794170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101794160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4e530b4f8f69743afa844a4f4708af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FacePlayerInstant
+  player: {fileID: 1682250738}
+--- !u!136 &2101794171
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101794160}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 7
+  m_Direction: 1
+  m_Center: {x: 0.7851422, y: -1, z: 0}
 --- !u!1001 &2117708627
 PrefabInstance:
   m_ObjectHideFlags: 0
